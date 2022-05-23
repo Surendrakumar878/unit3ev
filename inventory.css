@@ -1,0 +1,20 @@
+    #all_products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    #all_products>div {
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    
+    #all_products>div>img {
+        width: 100%;
+    }
+    
+    #navbar>a {
+        text-decoration: none;
+        border: 1px solid black;
+    }
